@@ -398,3 +398,6 @@ f1_scorekn = f1_score(y_test_out, y_pred, average=None).mean()
 
 print(f'f1: {f1_scorekn}')
 #------------------------------------------------------------------------------------------------
+
+print(f'y de prediccion: {y_pred}')
+print(f'Y real :{y_test_out}')
